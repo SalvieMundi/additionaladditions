@@ -26,10 +26,10 @@ public class AdditionalMaterials {
     public static final Item ROSE_GOLD_SHOVEL = new ShovelItem(RoseGoldToolMaterial.MATERIAL, 1.5F, -3F, new Item.Settings().group(ItemGroup.TOOLS));
 
     public static final ArmorMaterial GILDED_NETHERITE_ARMOR_MATERIAL = new GildedNetheriteArmorMaterial();
-    public static final Item GILDED_NETHERITE_HELMET = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
-    public static final Item GILDED_NETHERITE_CHESTPLATE = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
-    public static final Item GILDED_NETHERITE_LEGGINGS = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
-    public static final Item GILDED_NETHERITE_BOOTS = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+//    public static final Item GILDED_NETHERITE_HELMET = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+//    public static final Item GILDED_NETHERITE_CHESTPLATE = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+//    public static final Item GILDED_NETHERITE_LEGGINGS = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+//    public static final Item GILDED_NETHERITE_BOOTS = new ArmorItem(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
     public static final Item GILDED_NETHERITE_SWORD = new SwordItem(GildedNetheriteToolMaterial.MATERIAL, 5, -2.4F, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
     public static final Item GILDED_NETHERITE_PICKAXE = new AdditionalPickaxeItem(GildedNetheriteToolMaterial.MATERIAL, 3, -2.6F, new Item.Settings().group(ItemGroup.TOOLS).fireproof());
     public static final Item GILDED_NETHERITE_AXE = new AdditionalAxeItem(GildedNetheriteToolMaterial.MATERIAL, 7, -3F, new Item.Settings().group(ItemGroup.TOOLS).fireproof());
@@ -47,10 +47,10 @@ public class AdditionalMaterials {
         Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "rose_gold_shovel"), ROSE_GOLD_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "rose_gold_hoe"), ROSE_GOLD_HOE);
 
-        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
-        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_chestplate"), GILDED_NETHERITE_CHESTPLATE);
-        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_leggings"), GILDED_NETHERITE_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_boots"), GILDED_NETHERITE_BOOTS);
+//        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
+//        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_chestplate"), GILDED_NETHERITE_CHESTPLATE);
+//        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_leggings"), GILDED_NETHERITE_LEGGINGS);
+//        Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_boots"), GILDED_NETHERITE_BOOTS);
         Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_sword"), GILDED_NETHERITE_SWORD);
         Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_pickaxe"), GILDED_NETHERITE_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier(AdditionalAdditions.namespace, "gilded_netherite_axe"), GILDED_NETHERITE_AXE);

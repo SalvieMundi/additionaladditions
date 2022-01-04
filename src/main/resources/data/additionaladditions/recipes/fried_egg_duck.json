@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "untitledduckmod:duck_egg"
+  },
+  "result": "additionaladditions:fried_egg",
+  "cookingtime": 200,
+  "experience": 0.35
+}
